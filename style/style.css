@@ -87,7 +87,7 @@ button {
   width: 100%;
 }
 .main-content {
-  background-image: url("/img/main-img/main_img.png");
+  background-image: url(/img/main-img/main_img.png);
 }
 
 .title-text {
