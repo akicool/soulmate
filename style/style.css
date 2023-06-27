@@ -16,6 +16,14 @@ a {
   color: inherit;
 }
 
+::selection {
+  background: #ffb7b7;
+}
+
+::-moz-selection {
+  background: #ffb7b7;
+}
+
 ::-webkit-scrollbar {
   width: 0;
 }
