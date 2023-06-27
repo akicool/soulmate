@@ -2,12 +2,22 @@
 //     outline : 1px solid red !important;
 // }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
 
 button {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
 }
 
 ::-webkit-scrollbar { width: 0;}
