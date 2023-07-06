@@ -86,6 +86,10 @@ a {
         font-weight: 600;
     }
 
+    &--pink-p {
+        padding: 15px 30px;
+    }
+
     &--yellow {
         border: none;
         background: var(--unnamed, #EBFF82);
@@ -683,11 +687,14 @@ a {
         right: -30px;
     }
 
+    &__item--yellow {
+        background-color: #EBFF82;
+    }
+
     &__item {
         max-width: 300px;
         height: 300px;
         width: 100%;
-        background-color: #EBFF82;
         
         
         img {
@@ -963,7 +970,4 @@ a {
         display: flex;
         justify-content: space-between;
     }
-
-
-
 }

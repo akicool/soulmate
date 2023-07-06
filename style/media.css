@@ -143,10 +143,36 @@
     width: 415px;
     height: 444px;
   }
+
+  .questionnaire-star {
+    left: -50px;
+    bottom: 190px;
+    width: 110px;
+    height: 110px;
+  }
 }
 @media (max-width: 1120px) {
   .container {
     max-width: 1000px;
+  }
+
+  .header-logo {
+    width: 170px;
+    height: 40px;
+  }
+
+  .social {
+    max-width: 400px;
+  }
+
+  .button--pink-p {
+    padding: 15px 15px;
+  }
+
+  .welcome__rectangle:not(:first-child) {
+    text-align: start;
+    max-width: 550px;
+    padding-left: 100px;
   }
 
   .pre-container {
@@ -158,9 +184,133 @@
     padding-right: 80px;
   }
 
+  .franchise__title .star1 {
+    left: -100px;
+    bottom: 20px;
+    width: 120px;
+    height: 134px;
+  }
+
+  .star2 {
+    width: 155px;
+    height: 161px;
+  }
+
+  .star3 {
+    width: 109px;
+    height: 114px;
+  }
+
   iframe {
     width: 625px;
     height: 370px;
+  }
+
+  .footer__input-block {
+    gap: 10px;
+  }
+
+  .footer__subs-text {
+    max-width: 250px;
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    max-width: 930px;
+  }
+
+  .welcome-star:nth-child(1) {
+    width: 80px;
+    height: 95px;
+  }
+
+  .about__text img:last-child {
+    right: 0px;
+    bottom: -40px;
+    width: 80px;
+    height: 95px;
+  }
+
+  .service-wrap__item-img {
+    width: 350px;
+    height: 290px;
+  }
+
+  .services-star {
+    width: 100px;
+    height: 100px;
+  }
+
+  .pre-container {
+    padding-left: 30px;
+  }
+
+  .pre-container:last-child {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .location-main img {
+    width: 300px;
+    height: 270px;
+  }
+
+  iframe {
+    width: 600px;
+    height: 270px;
+  }
+}
+@media (max-width: 1040px) {
+  .pre-container {
+    padding-left: 0px;
+  }
+
+  .pre-container:last-child {
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .card__item {
+    max-width: 250px;
+    height: 250px;
+    width: 100%;
+  }
+  .card__item img {
+    max-width: 250px;
+    height: 250px;
+    width: 100%;
+  }
+}
+@media (max-width: 1020px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .welcome__rectangle:not(:first-child) {
+    max-width: 600px;
+    padding-left: 70px;
+  }
+
+  .pre-container, .pre-container:last-child {
+    max-width: 930px;
+  }
+
+  .pre-container:last-child {
+    padding-right: 30px;
+  }
+
+  .location__btn-wrap {
+    max-width: 430px;
+  }
+  .location__btn-wrap .button--yellow {
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    max-width: 870px;
   }
 }
 
